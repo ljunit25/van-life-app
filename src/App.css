@@ -1,0 +1,102 @@
+.wrapper {
+  width: 550px;
+  margin: auto;
+}
+
+.logo h1 {
+  font-weight: 900;
+  font-size: 25.3531px;
+  line-height: 40px;
+  display: flex;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+header {
+  background: #fff7ed;
+  align-items: center;
+  padding: 36px 26px;
+}
+
+header,
+nav > ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav > ul {
+  list-style: none;
+  gap: 10px
+}
+
+a {
+  text-decoration: none;
+}
+
+nav a {
+  font-weight: 600;
+  font-size: 16px;
+  color: #4d4d4d;
+}
+
+main {
+  background-image: url(./assets/img/bg.png);
+}
+img {
+  width: 100%;
+}
+
+main {
+  padding: 65px 26px;
+}
+
+main h1 {
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 42px;
+  color: #ffffff;
+  margin-bottom: 22px;
+}
+
+main p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+
+  margin-bottom: 52px;
+}
+
+button {
+  background: transparent;
+  border: none;
+  padding: 10px;
+  display: flex;
+  flex-grow: 1;
+  background: #ff8c38;
+  border-radius: 5px;
+  justify-content: center;
+  width: 100%;
+  color: #fff;
+  font-weight: 700;
+  font-size: 15.9462px;
+  line-height: 32px;
+  text-align: center;
+  cursor: pointer;
+}
+
+footer {
+  background: #252525;
+  text-align: center;
+  padding: 25px 0;
+}
+
+footer p {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 23px;
+  text-align: center;
+  color: #aaaaaa;
+  text-transform: uppercase;
+}
+/* Ⓒ 2022 #VANLIFE */
