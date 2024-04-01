@@ -1,5 +1,6 @@
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import Button from "../components/Button"
 
 const Home = () => {
   return (
@@ -11,9 +12,7 @@ const Home = () => {
           Add adventure to your life by joining the #vanlife movement. Rent the
           perfect van to make your perfect road trip.
         </p>
-        <div className="btn">
-          <button className="btn-home">Find your van</button>
-        </div>
+        <Button color="btnColorSecondary">Find your van</Button>
       </main>
      <Footer />
     </>

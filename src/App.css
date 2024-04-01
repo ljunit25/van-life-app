@@ -73,7 +73,6 @@ button {
   padding: 10px;
   display: flex;
   flex-grow: 1;
-  background: #ff8c38;
   border-radius: 5px;
   justify-content: center;
   width: 100%;
@@ -84,7 +83,13 @@ button {
   text-align: center;
   cursor: pointer;
 }
+.btnColorPrimary {
+  background: #161616;
+}
 
+.btnColorSecondary {
+  background: #ff8c38;
+}
 footer {
   background: #252525;
   text-align: center;
